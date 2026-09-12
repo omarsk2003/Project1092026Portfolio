@@ -1,5 +1,3 @@
-/* General settings */
-
 * {
     box-sizing: border-box;
 }
@@ -22,10 +20,6 @@ h1, h2, h3 {
 a {
     text-decoration: none;
 }
-
-
-/* Navigation Bar */
-
 .custom-navbar {
     background: #0f1728 !important;
 }
@@ -47,10 +41,6 @@ a {
 .nav-link:hover {
     color: #62e6b5 !important;
 }
-
-
-/* Hamburger Menu */
-
 .menu-toggle {
     display: none;
 }
@@ -67,10 +57,6 @@ a {
     margin: 5px 0;
     background: white;
 }
-
-
-/* Navigation menu */
-
 .css-nav-menu {
     display: flex;
 }
@@ -82,10 +68,6 @@ a {
     padding: 0;
     list-style: none;
 }
-
-
-/* Hero Section */
-
 .hero {
     min-height: 100vh;
     padding-top: 150px;
@@ -128,10 +110,6 @@ a {
     font-size: 18px;
     line-height: 1.7;
 }
-
-
-/* Buttons */
-
 .hero-buttons {
     margin-top: 30px;
 }
@@ -163,10 +141,6 @@ a {
     background: #62e6b5;
     color: #0a0f1c;
 }
-
-
-/* Sections */
-
 .section {
     padding: 100px 0;
     background: #0a0f1c;
@@ -190,9 +164,6 @@ a {
     color: #9aa8bd;
 }
 
-
-/* Cards */
-
 .content-card {
     background: #121b2d;
     border: 1px solid rgba(255, 255, 255, 0.09);
@@ -212,7 +183,6 @@ a {
 }
 
 
-/* Two Columns */
 
 .two-column {
     display: grid;
@@ -221,7 +191,6 @@ a {
 }
 
 
-/* Skills */
 
 .skills {
     display: flex;
@@ -239,7 +208,6 @@ a {
 }
 
 
-/* Projects */
 
 .projects {
     display: grid;
@@ -305,7 +273,6 @@ a {
     transform: translateY(-3px);
     box-shadow: 0 6px 18px rgba(32, 201, 195, 0.25);
 }
-/* References */
 
 .reference-card {
     background: #121b2d;
@@ -332,7 +299,6 @@ a {
 }
 
 
-/* Footer */
 
 footer {
     background: #080c16;
@@ -352,8 +318,6 @@ footer a {
 footer a:hover {
     color: #62e6b5;
 }
-
-/* Mobile */
 
 @media (max-width: 991px) {
 
@@ -415,7 +379,6 @@ footer a:hover {
 }
 
 
-/* Small Screens */
 
 @media (max-width: 768px) {
 
