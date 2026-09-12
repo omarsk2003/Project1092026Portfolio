@@ -1,0 +1,452 @@
+/* General settings */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: #0a0f1c;
+    color: #eef3fb;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Navigation Bar */
+
+.custom-navbar {
+    background: #0f1728 !important;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    color: white !important;
+}
+
+.navbar-brand span {
+    color: #62e6b5;
+}
+
+.nav-link {
+    color: #b5c1d3 !important;
+    margin-left: 8px;
+}
+
+.nav-link:hover {
+    color: #62e6b5 !important;
+}
+
+
+/* Hamburger Menu */
+
+.menu-toggle {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    width: 35px;
+}
+
+.hamburger span {
+    display: block;
+    height: 3px;
+    margin: 5px 0;
+    background: white;
+}
+
+
+/* Navigation menu */
+
+.css-nav-menu {
+    display: flex;
+}
+
+.css-nav-menu ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/* Hero Section */
+
+.hero {
+    min-height: 100vh;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    background:
+        radial-gradient(circle at top right, rgba(98, 230, 181, 0.12), transparent 35%),
+        radial-gradient(circle at bottom left, rgba(110, 168, 255, 0.10), transparent 35%),
+        #0a0f1c;
+}
+
+.eyebrow {
+    color: #62e6b5;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.hero h1 span {
+    color: #62e6b5;
+}
+
+.hero h2 {
+    color: #6ea8ff;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    color: #9aa8bd;
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+
+/* Buttons */
+
+.hero-buttons {
+    margin-top: 30px;
+}
+
+.main-button {
+    display: inline-block;
+    background: #62e6b5;
+    color: #0a0f1c;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.main-button:hover {
+    background: #4fd3a2;
+    color: #0a0f1c;
+}
+
+.outline-button {
+    display: inline-block;
+    border: 1px solid #62e6b5;
+    color: #62e6b5;
+    padding: 12px 25px;
+    border-radius: 6px;
+}
+
+.outline-button:hover {
+    background: #62e6b5;
+    color: #0a0f1c;
+}
+
+
+/* Sections */
+
+.section {
+    padding: 100px 0;
+    background: #0a0f1c;
+}
+
+.dark-section {
+    background: #0f1728;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.section-title p {
+    color: #9aa8bd;
+}
+
+
+/* Cards */
+
+.content-card {
+    background: #121b2d;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 10px;
+    padding: 30px;
+    height: 100%;
+}
+
+.content-card h3 {
+    color: #62e6b5;
+    margin-bottom: 15px;
+}
+
+.content-card p {
+    color: #9aa8bd;
+    line-height: 1.7;
+}
+
+
+/* Two Columns */
+
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+
+/* Skills */
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills span {
+    background: #0f1728;
+    border: 1px solid rgba(98, 230, 181, 0.3);
+    color: #62e6b5;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+
+/* Projects */
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.project-card {
+    background: #121b2d;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.project-card:hover {
+    border-color: #62e6b5;
+}
+
+.project-number {
+    color: #62e6b5;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.project-card h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    color: #9aa8bd;
+    line-height: 1.7;
+}
+
+.technologies {
+    color: #6ea8ff;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.linktoproject {
+    margin-top: 20px;
+}
+
+.linktoproject a {
+    display: inline-block;
+    padding: 10px 20px;
+    
+    color: #20c9c3;
+    border: 1px solid #20c9c3;
+    border-radius: 8px;
+    
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    
+    transition: all 0.3s ease;
+}
+
+.linktoproject a:hover {
+    background-color: #20c9c3;
+    color: #0f172a;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(32, 201, 195, 0.25);
+}
+/* References */
+
+.reference-card {
+    background: #121b2d;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.reference-card h3 {
+    margin-bottom: 10px;
+}
+
+.reference-card p {
+    color: #9aa8bd;
+}
+
+.reference-card a {
+    color: #62e6b5;
+}
+
+.reference-card a:hover {
+    color: white;
+}
+
+
+/* Footer */
+
+footer {
+    background: #080c16;
+    padding: 50px 0;
+}
+
+.footer-title {
+    color: #62e6b5;
+    font-weight: bold;
+}
+
+footer p,
+footer a {
+    color: #9aa8bd;
+}
+
+footer a:hover {
+    color: #62e6b5;
+}
+
+/* Mobile */
+
+@media (max-width: 991px) {
+
+    .hamburger {
+        display: block;
+    }
+
+    .css-nav-menu {
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background: #0f1728;
+        padding: 20px;
+    }
+
+    .css-nav-menu ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .css-nav-menu .nav-link {
+        margin: 5px 0;
+        padding: 10px 0;
+    }
+
+    .menu-toggle:checked ~ .css-nav-menu {
+        display: block;
+    }
+
+    .menu-toggle:checked + .hamburger span:nth-child(1) {
+        transform: rotate(45deg);
+        position: relative;
+        top: 8px;
+    }
+
+    .menu-toggle:checked + .hamburger span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-toggle:checked + .hamburger span:nth-child(3) {
+        transform: rotate(-45deg);
+        position: relative;
+        top: -8px;
+    }
+
+    .hero h1 {
+        font-size: 45px;
+    }
+
+    .two-column {
+        grid-template-columns: 1fr;
+    }
+
+    .projects {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* Small Screens */
+
+@media (max-width: 768px) {
+
+    .hero {
+        padding-top: 130px;
+        padding-bottom: 80px;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .hero h2 {
+        font-size: 23px;
+    }
+
+    .hero-text {
+        font-size: 16px;
+    }
+
+    .section {
+        padding: 70px 0;
+    }
+
+    .section-title h2 {
+        font-size: 30px;
+    }
+
+    .content-card,
+    .project-card,
+    .reference-card {
+        padding: 22px;
+    }
+}
