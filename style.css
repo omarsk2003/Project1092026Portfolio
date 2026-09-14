@@ -166,11 +166,10 @@ text-align: center;
 }
 .contentcard1
 {
-        background: #121b2d;
+    background: #121b2d;
     border: 1px solid #ffffff17;
     border-radius: 10px;
     padding: 30px;
-    height: 100%;
 }
 .contentcard1 h3 {
     color: white;
@@ -181,7 +180,6 @@ text-align: center;
     border: 1px solid #ffffff17;
     border-radius: 10px;
     padding: 30px;
-    height: 100%;
 }
 
 .contentcard h3 {
