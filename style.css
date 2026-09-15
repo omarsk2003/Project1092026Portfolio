@@ -258,9 +258,9 @@ text-align: center;
     font-size: 14px;
     margin-top: 20px;
 }
-.technologies div
+.technologies span
 {
-margin-left: 15px;
+margin-right: 15px;
 }
 
 .linktoproject {
