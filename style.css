@@ -258,6 +258,10 @@ text-align: center;
     font-size: 14px;
     margin-top: 20px;
 }
+.technologies div
+{
+margin-left: 15px;
+}
 
 .linktoproject {
     margin-top: 20px;
