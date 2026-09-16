@@ -24,10 +24,6 @@ a {
     font-size: 25px;
     color: white !important;
 }
-
-.navbar-brand span {
-    color: #62e6b5;
-}
 .nav-item
 {
 margin: 10px;
@@ -207,6 +203,7 @@ text-align: center;
    display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    
 }
 
 .skills span {
